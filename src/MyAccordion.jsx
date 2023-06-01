@@ -5,7 +5,7 @@ const MyAccordion = ({question, answer}) => {
     return (
         <>
         <div className="main-heading">
-             <p onClick={() =>setShow(!show)}> {show ? "☝" : "👇"}</p>
+             <p onClick={() =>setShow(!show)}> {show ? "➖" : "➕"}</p>
              <h3>{question}</h3>
         </div>
         {
